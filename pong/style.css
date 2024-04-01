@@ -1,0 +1,27 @@
+#pongGame {
+  width: 600px;
+  height: 400px;
+  background-color: black;
+  position: relative;
+  margin: 20px auto;
+}
+.paddle {
+  width: 10px;
+  height: 60px;
+  background-color: white;
+  position: absolute;
+}
+#paddleA {
+  left: 0;
+}
+
+#paddleB {
+  right: 0;
+}
+#ball {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  position: absolute;
+  border-radius: 50%;
+}
